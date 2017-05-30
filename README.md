@@ -26,3 +26,7 @@ Run `jupyter notebook dlnd_face_generation.ipynb`
 
 1. Implement BEGAN
 2. Obtain feedback on improved WGAN Implementation
+
+## Result
+
+![result](images/example1.jpg)

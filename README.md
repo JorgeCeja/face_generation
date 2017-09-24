@@ -1,13 +1,36 @@
-# Face and MNIST Generation with GANs
+# DCGAN and Improved WGAN
 
-## Installation
+Project referenced from Udacity's [face_generation](https://github.com/udacity/deep-learning/tree/master/face_generation) wich is part of their [deep-learning](https://github.com/udacity/deep-learning) course. Further implementations have been done for DCGAN and Improved WGAN with techniques to improve training speed.
 
-TODO: requirements.txt
+### Prerequisites
 
-## Usage
+- Jupyter notebook
+- Tensoflow 
+- Matplotlib
+- Numpy
 
-Run `jupyter notebook dlnd_face_generation.ipynb`
+## Getting Started
 
+1. `git clone ` + repo URL
+2. cd to repo
+3. `pip install -r requirement.txt` if packages are not yet installed
+4. `jupyter notebook ` + jupyter notebook selected
+
+## Results
+
+![result](images/example1.jpg)
+
+## History
+
+1. Generate images with DCGAN like architecture
+2. Implemented improved WGAN
+
+## Built With
+
+* [Tensoflow](https://www.tensorflow.org) - Software library for numerical computation using data flow graphs
+* [Jupyter notebook](http://jupyter.org) - Web-based notebook environment for interactive computing
+* [Matplotlib](https://matplotlib.org) - Python 2D plotting library
+* [Numpy](http://www.numpy.org) - package for scientific computing
 
 ## Contributing
 
@@ -17,16 +40,13 @@ Run `jupyter notebook dlnd_face_generation.ipynb`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
+## Authors
 
-1. Generate images with DCGAN like architecture
-2. Implemented improved WGAN
+* **Udacity** - *Initial work/Notebook boiler plate* - [Repo](https://github.com/udacity/deep-learning/tree/master/face_generation)
+* **Jorge Ceja** - *Model implementations* - [Account](https://github.com/JorgeCeja)
 
-## Todo
+## Acknowledgments
 
-1. Implement BEGAN
-2. Obtain feedback on improved WGAN Implementation
-
-## Result
-
-![result](images/example1.jpg)
+* Improved Techniques for Training GANs - [arXiv](https://arxiv.org/abs/1606.03498)
+* Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks - [arXiv](https://arxiv.org/abs/1511.06434)
+* Improved Training of Wasserstein GANs - [arXiv](https://arxiv.org/abs/1704.00028)
